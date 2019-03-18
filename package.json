@@ -2,7 +2,7 @@
   
     "main": "server/server.js",
     "scripts": {
-      "build": "node server/server.js"
+      "build": "cd server; yarn; node server.js"
     }
     
 }
