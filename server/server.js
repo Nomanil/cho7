@@ -45,6 +45,6 @@ require('./app/routes.js')(app, passport);
 
 
 console.log('Server online!');
-console.log(ip.address() + ':8180');
+console.log(ip.address() + ':8080');
 
-app.listen(8180);
+app.listen(8080);
