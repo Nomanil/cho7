@@ -2,7 +2,7 @@
   
     "main": "server/server.js",
     "scripts": {
-      "build": "cd server; yarn; node server.js"
+      "build": "cd client; yarn; yarn build; yarn global add serve; serve -s build"
     }
     
 }
